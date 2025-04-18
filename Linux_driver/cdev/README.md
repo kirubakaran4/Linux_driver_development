@@ -68,3 +68,6 @@ cat /dev/cdev_example
 ```bash
 sudo rmmod cdev
 ```
+
+## Notes
+This example is tested on Raspberry Pi OS. Ensure kernel headers are installed.
