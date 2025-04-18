@@ -53,3 +53,8 @@ echo 0 > /dev/led_device  # Turn LED off
 ```bash
 sudo rmmod led
 ```
+
+## Notes
+
+- Ensure the GPIO pin number in the source code matches your hardware setup.
+- Tested on Raspberry Pi OS with appropriate kernel headers installed.
